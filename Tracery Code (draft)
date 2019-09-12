@@ -2,7 +2,7 @@
 
 "origin":["[Hero:#name#][Race:#raceC#][Setting:#place#][boss:#bbad#][Occ:#occBase#]#int#"],
 
-"int": ["#Ord#", "#Call#", "#Mentor#", "#thresh#", "#allies#", "#tests#", "#tests2#", "#enemies#", "#inmost#", "#inmost#", "#inmost#", "#inmost#", "#inmost#"],
+"int": ["#Ord#", "#Call#", "#Mentor#", "#thresh#", "#allies#", "#tests#", "#tests2#", "#enemies#", "#inmost#"],
 
 "name": ["Beck","Bhara","Maral","Rhaqu","Arro","Khabo", "Janna","Nirinni","Remmi", "Mivi","Ash","Athen", "Eyva","Arissa","Lehna", "Kinsey","Heidrek","Ty", "Ida","Fyrro","Mave", "Raddi","Idrea", "Kosta","Aslim","Kubok","Nazim","Ozer", "Seray","Rellyga","Garnel","Cyris","Alras","Sevra","Nesiari","Nava", "Gelri", "Omi", "Sutri", "Turan", "Kala", "Koba", "Delia", "Surra", "Raini", "Radi", "Vaesi", "Honni"],
 
