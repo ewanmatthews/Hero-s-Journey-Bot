@@ -1,28 +1,32 @@
 {
 
-"origin":["[Hero:#name#][Race:#raceC#][Setting:#place#][boss:#bbad#][Occ:#occBase#]#int#"],
+"origin":["[Hero:#name#][Race:#raceC#][Setting:#place#][boss:#bbad#][monsters:#badguys#][Occ:#occBase#]#int#"],
 
-"int": ["#Ord#", "#Call#", "#Mentor#", "#thresh#", "#allies#", "#tests#", "#tests2#", "#enemies#", "#inmost#"],
+"int": ["#Ord#", "#Call#", "#Mentor#", "#thresh#", "#allies#", "#tests#", "#tests2#", "#enemies#", "#inmost#", "#ordeal#", "#reward#", "#reward#"],
 
 "name": ["Beck","Bhara","Maral","Rhaqu","Arro","Khabo", "Janna","Nirinni","Remmi", "Mivi","Ash","Athen", "Eyva","Arissa","Lehna", "Kinsey","Heidrek","Ty", "Ida","Fyrro","Mave", "Raddi","Idrea", "Kosta","Aslim","Kubok","Nazim","Ozer", "Seray","Rellyga","Garnel","Cyris","Alras","Sevra","Nesiari","Nava", "Gelri", "Omi", "Sutri", "Turan", "Kala", "Koba", "Delia", "Surra", "Raini", "Radi", "Vaesi", "Honni"],
 
-"Ord":["This story begins #age# ago, when #whend#, with #Hero# the #Race# #Occ#. Their life was normal, and they did all the usual #Occ# things...", "This story begins #age# ago, when #whend#, with #Hero# the #Race# #Occ#. One day this #Occ# went too far...", "Our story begins #age# ago in #place#, with #Hero# the #Race#. Their life was normal, and they did all sorts of mundane #Occ# things.", "Like many stories, we begin #age# ago. Unlike many stories, we begin with the #bound# #destiny.s# of #enchanted.a# #object# and a simple #Race# named #Hero#.", "#age.capitalize# ago when #whend#, there was a #Race# #Occ# who hid a secret talent: they #quirk#!", "#HeroGen.capitalize# was destined for great things, and they #quirk#! This oddity brought them on the path of adventure..."],
+"Ord":["This story begins #age# ago, when #whend#, with #Hero# the #Race# #Occ#. Their life was normal, and they did all the usual #Occ# things...", "This story begins #age# ago, when #whend#, with #Hero# the #Race# #Occ#. One day this #Occ# went too far...", "Our story begins #age# ago in #place#, with #Hero# the #Race#. Their life was normal, and they did all sorts of mundane #Occ# things.", "Like many stories, we begin #age# ago. Unlike many stories, we begin with the #bound# #destiny.s# of #enchanted.a# #object# and a simple #Race# named #Hero#.", "#age.capitalize# ago when #whend#, there was #Race.a# #Occ# who hid a secret: they #quirk#!", "#HeroGen.capitalize# was destined for great things, and they #quirk#! This oddity brought them on the path of adventure..."],
 
 "Call":["#Hero# the ordinary #Occ# #encounter# #2mood# #animal#, who warns them of #strange.a# power coming from #Setting#. #Hero#, being ordinary, #refused#. But #cannotdeny#", "#Hero# the ordinary #occBase# #encounter# #2mood# #animal#, who tells them the #tale# of the #persona# #name# and their #colour# #weapon#. #Hero#, being ordinary, #refused#. But #cannotdeny#","#Hero# the ordinary #Occ# #encounter# an evil #boss# who wields the #strange# #weapon# #name#. #Hero# flees, unseen, but #cannotdeny#", "#barkeep.a.capitalize# tells #HeroGen# about #stranger.a# in town, one who says they're from #place#, and have seen the #evil# #boss.capitalize# not far too the #north#! But that's impossible...", "#barkeep.a.capitalize# tells #HeroGen# about #stranger.a# in town, one who knows the location of the #enchanted# #object# #name#! But that's impossible...", "#barkeep.a.capitalize# tells #HeroGen# about #stranger.a# in town, one who knows the location of the #enchanted# #weapon# #name#! But that's impossible...", "#folk.capitalize# are whispering that there have been sightings of #evil.a# #boss.capitalize# to the #north#...", "#HeroGen.capitalize# has been receiving strange dreams, visions of #vision#. What does #destiny# have in store for them?", "#HeroGen.capitalize# has been receiving strange dreams, visions of #vision#. What does #destiny# have in store for them?"],
 
-"Mentor":["When #Hero# the #Occ# returns home, they find their #town# had been #ruin.ed# by #force.a# of #monsters#! They flee into the #region#, and there #theyencounter# the #ment# #name#...", "#name# the #ment# teaches #Hero# a great many things, including #skill#, but most importantly how to #value#...", "The #ment# #name# found their fame #feat#, and #hasmuchtoteach#.", "Our hero's mentor, the #ment# #name#, hides a secret #history# with the #monsters# and their #evil# #boss#. What do they hide?", "#HeroGen.capitalize# dreams of their mentor, the #ment# #name#, fighting #force.a# of #monsters#. But... no... #tragedy# The mentor is killed!", "#HeroGen.capitalize# dreams of their dead mentor. They tell our hero that to #defeat# the #enemy#, they must remember how to #value#!"],
+"Mentor":["When #Hero# the #Occ# returns home, they find their #town# has been #ruin.ed# by #force.a# of #monsters#! They flee into the #region#, and there #theyencounter# the #ment# #name#...", "#name# the #ment# teaches #Hero# a great many things, including #skill#, but most importantly how to #value#...", "The #ment# #name# found their fame #feat#, and #hasmuchtoteach#.", "Our hero's mentor, the #ment# #name#, hides a secret #history# with the #monsters# and their #evil# #boss#. What are they hiding?", "#HeroGen.capitalize# dreams of their mentor, the #ment# #name#, fighting #force.a# of #monsters#. But... no... #tragedy# The mentor is killed!", "#HeroGen.capitalize# dreams of their dead mentor. They tell our hero that to #defeat# the #enemy#, they must remember how to #value#!", "The #ment# #name# tries to teach our hero #skill#, but training is slow and time is running out...", "Our hero and their #ment# mentor spend day and night training, unaware of #evil.a# force approaching..."],
 
-"thresh":["But #Hero# had been followed by #agent.a# of the #enemy#, and must flee through the #region# with nothing but #object.a# and their wits!", "#tragedy# #HeroGen.capitalize# had been followed by #agent.a# of the #enemy#! This assassin steals into their refuge and murders #Hero#'s mentor, the #ment# #name#!", "#tragedy# An assassin steals into their refuge and murders #Hero#'s mentor, the #ment# #name#! How #Hero# flees, how they dash into destiny!", "The #agent.s# of the #enemy# #follow# our hero #urban#, ready to #kill#...", "The #agent.s# of the #enemy# #follow# our hero through the #dangerous##region#, ready to #kill#...", "#HeroGen.capitalize# begins to #walk# home, but sees pillars of smoke and flashes of #colour# light to the #north#!"],
+"thresh":["But #Hero# had been followed by #agent.a# of the #enemy#, and must flee through the #region# with nothing but #object.a# and their wits!", "#tragedy# #HeroGen.capitalize# had been followed by #agent.a# of the #enemy#! This assassin steals into their refuge and murders #Hero#'s mentor, the #ment# #name#!", "#tragedy# An assassin steals into their refuge and murders #Hero#'s mentor, the #ment# #name#! How #Hero# flees, how they dash into destiny!", "The #agent.s# of the #enemy# #follow# our hero #urban#, ready to #kill#...", "The #agent.s# of the #enemy# #follow# our hero through the #dangerous##region#, ready to #kill#...", "#HeroGen.capitalize# begins to #walk# home, but sees pillars of smoke and flashes of #colour# light to the #north#!", "With nothing to lose and everything to gain, #HeroGen# steps on board #boat.a# headed to #waterfeat#.", "#haunt.ed.capitalize# by #negEmot#, #HeroGen# boards #boat.a# journeying to #waterfeat#, and adventure..."],
 
-"allies":["#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #object# and #walk# #urban#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #weapon# and #walk# #urban#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #object# and #walk# into the #dangerous##region#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #weapon# and #walk# into the #dangerous##region#...", "#HeroGen.capitalize# #encounter# #AllyGen.a# who has been wronged by the terrible #monsters# and seeks their downfall. The two join forces!", "#HeroGen.capitalize# #encounter# #AllyGen.a# who is also seeking to #defeat# the terrible #monsters#. They join forces!", "#barkeep.a.capitalize# tells #HeroGen# about #stranger.a# in town who may be #agent.a# for the #monarch# of #place#... They could make a good #ally#!", "The #agent# of the #enemy# awakens our hero, and reveals themselves to be #raceC.a# named #name#! They wish to be the #ally# of our #brave# hero!"],
+"allies":["#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #object# and #walk# #urban#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #weapon# and #walk# #urban#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #object# and #walk# into the #dangerous##region#...","#mood3.capitalize#, #HeroGen# decides that they must find #answers#. They #pack# their #enchanted# #weapon# and #walk# into the #dangerous##region#...", "#HeroGen.capitalize# #encounter# #AllyGen.a# who has been wronged by the terrible #monsters# and seeks their downfall. The two join forces!", "#HeroGen.capitalize# #encounter# #AllyGen.a# who is also seeking to #defeat# the terrible #monsters#. They join forces!", "#barkeep.a.capitalize# tells #HeroGen# about #stranger.a# in town who may be #agent.a# for the #monarch# of #place#... They could make a good #ally#!", "The #agent# of the #enemy# awakens our hero, and reveals themselves to be #raceC.a# named #name#! They wish to be the #ally# of our #brave# hero!", "While captured by the #monsters# our hero and their #ally# encounter a fellow prisoner, #AllyGen.a# who is ready to break free! #luck#", "#HeroGen.capitalize# #encounter# #general.a# with a #boat# ready for travelling! They agree to take our hero through #waterfeat#. #luck#", "On board the #boat#, our hero befriends #AllyGen.a# with quite the #means#!", "Our hero and their #magcre# #ally# find passage through #waterfeat# on a #boat#. The #way# will be long and arduous...", "#criminal.s.capitalize# have captured #boat.a# and are using it to raid our #brave# hero's #boat#! #toarms#"],
 
-"tests":["#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# tries to use #skill#! #testout#","#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# uses their #enchanted# #object#! #testout#","#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# uses the #enchanted# #weapon# #name#! #testout#", "#tragedy# Our hero is taken captive by #force.a# of #monsters#!", "#tragedy# Our hero and their #AllyGen# #ally# are taken captive by #force.a# of #monsters#!", "#HeroGen.capitalize# visits #ancient.a# #library# and finds a secret weakness of the #boss.capitalize#. While searching the #book.s# they are ambushed by #monsters#!", "The folk are whispering about #enchanted.a# #book# that holds the secret to stopping the #enemy#...", "#HeroGen.capitalize# and their #AllyGen# #ally# must voyage to the #ancient# #library# of #place#!", "#tragedy# The #book# which contains the secret to defeating the #enemy# is in their hands! Is all now lost?", "#HeroGen.capitalize# and their #AllyGen# #ally# find #ancient.a#, unreadable #book#, and feel mystical energies from it. They must find a translator!", "#HeroGen.capitalize# #flees# with pieces of the #book#, #follow.ed# by #force.a# of #monsters#!"],
+"tests":["#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# tries to use their lessons in #skill#! #testout#","#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# uses their #enchanted# #object#! #testout#","#HeroGen.capitalize# is ambushed by the #boss.capitalize# leading the #monsters#! They #battle#, and #Hero# uses the #enchanted# #weapon# #name#! #testout#", "#tragedy# Our hero is taken captive by #force.a# of #monsters#!", "#tragedy# Our hero and their #AllyGen# #ally# are taken captive by #force.a# of #monsters#!", "#HeroGen.capitalize# visits #ancient.a# #library# and finds a secret weakness of the #boss.capitalize#. While searching the #book.s# they are ambushed by #monsters#! #toarms#", "The folk are whispering about #enchanted.a# #book# that holds the secret to stopping the #enemy#...", "#HeroGen.capitalize# and their #AllyGen# #ally# must voyage to the #ancient# #library# of #place#!", "#tragedy# The #book# which contains the secret to defeating the #enemy# is now in their hands! Is all now lost?", "#HeroGen.capitalize# and their #AllyGen# #ally# find #ancient.a#, unreadable #book#, and feel mystical energies from it. They must find a translator!", "#HeroGen.capitalize# #flees# with pieces of the #book#, #follow.ed# by #force.a# of #monsters#!", "#HeroGen.capitalize# and their #AllyGen# #ally# are attacked by #criminal.s# on the #way# to #place#. They use their #means# to #defeat# them.", "#destitute.capitalize#, #HeroGen# approaches #tavern.a# and asks for a room. They are denied at first, but use their #means# to get in.", "#HeroGen.capitalize# takes shelter in #ruin.ed.a# #building#. #ghost.s.capitalize# #haunt# this place, and watch our hero settle in...", "#HeroGen.capitalize# takes shelter in #ruin.ed.a# #building#. They are attacked by #ghost.s#! #toarms#", "They pass #waterfeat# in their #boat#. Many warriors died here during the #warname#. Our heroes do not notice their #ghost.s# board the ship...", "A violent storm forces our hero's #boat# into #waterfeat#, a place of #evil# #magic#, and #seamonsters#."],
 
-"tests2":["#tragedy# While sleeping around their fire, our hero's #enchanted# #object# is stolen! How can they complete the quest now?!","#tragedy# While sleeping in a tavern, our hero's #enchanted# #object# is stolen! How can they complete the quest now?!","#tragedy# While sleeping around their fire, our hero's #enchanted# #weapon# is stolen! How can they complete the quest now?!","#tragedy# While sleeping in a tavern, our hero's #enchanted# #weapon# is stolen! How can they complete the quest now?!", "#agent.a.capitalize# of the #enemy# sneaks upon #HeroGen# while they are sleeping in an inn. Do they seek to kill? Or are they after something else?","#agent.a.capitalize# of the #enemy# sneaks upon #HeroGen# while they are sleeping by a campfire. Do they seek to kill? Or are they after something else?", "When #HeroGen# wakes they find that their #ally# #name# has disappeared. Where are they?", "When #HeroGen# wakes they find that their #ally# #name# is gone. And the #enchanted# #object# is too!", "When #HeroGen# wakes they find that their #ally# #name# is gone. And the #enchanted# #weapon# is too!"],
+"tests2":["#tragedy# While sleeping around their fire, our hero's #enchanted# #object# is stolen! How can they complete the quest now?!","#tragedy# While sleeping in #tavern.a#, our hero's #enchanted# #object# is stolen! How can they complete the quest now?!","#tragedy# While sleeping around their fire, our hero's #enchanted# #weapon# is stolen! How can they complete the quest now?!","#tragedy# While sleeping in #tavern.a#, our hero's #enchanted# #weapon# is stolen! How can they complete the quest now?!", "#agent.a.capitalize# of the #enemy# sneaks upon #HeroGen# while they are sleeping in #tavern.a#. Do they seek to kill? Or are they after something else?","#agent.a.capitalize# of the #enemy# sneaks upon #HeroGen# while they are sleeping by a campfire. Do they seek to kill? Or are they after something else?", "When #HeroGen# wakes they find that their #ally# #name# has disappeared. Where are they?", "When #HeroGen# wakes they find that their #ally# #name# is gone. And the #enchanted# #object# is too!", "When #HeroGen# wakes they find that their #ally# #name# is gone. And the #enchanted# #weapon# is too!", "Grieving the loss of their mentor #name#, our hero practices manipulating what they learned of #elements#. Their mind is clouded, they #fizzle#.", "Consumed by #negEmot#, #HeroGen# and their #AllyGen# #ally# make camp in the #region#.", "Our hero is mugged by #criminal.s#! #destitute.capitalize#, they continue #urban#...", "The law has caught up with #HeroGen#! They are cornered in #tavern.a# by a group of #law.s#. They use their #means# to escape...", "The law has caught up with #HeroGen#! They are cornered in #tavern.a# by a group of #law.s#. They throw our hero in prison!", "The #boat# is attacked by #force.a# of #seamonsters#! #toarms#", "While in #waterfeat# our hero's #boat# is swarmed by #seamonsters#! #toarms#"],
 
-"enemies":["#folk.capitalize# are whispering that #stranger.a# has arrived, and is searching for our hero.","#stranger.a.capitalize# has been spotted stalking #urban# searching for our hero...","#stranger.a.capitalize# is hunting our hero, claiming they have the only right to wield the #enchanted# #weapon# #name#!", "#HeroGen.capitalize# enters a drinking contest at the local tavern, and loses! The last thing they see is #barkeep.a# with #strange# #colour# eyes...", "#HeroGen.capitalize# starts gambling at the local tavern, and loses! Their opponent is #angry.a# #raceC# who demands our hero's #weapon#!", "#HeroGen.capitalize# runs into trouble with the law in #place#, and the #monarch# puts a bounty on their head!", "#HeroGen.capitalize# and their #ally# #name# #breakinto# the #sacred# #library# of #place#. They steal a #sacred# #book# and flee from the resident #guardian.s#!", "#HeroGen.capitalize# stops to make camp in the #region#, but they see the hunting parties of the #monsters# in the distance!", "#HeroGen.capitalize# tries to #breakinto# the #sacred.capitalize# #library.capitalize# but they are #givenaway# by the #stranger# from town!", "The #guardian.s# of the #library# take #HeroGen.capitalize#'s #ally# #name#! They demand the #sacred# #book# for their life!", "During the ambush, #HeroGen# uses their #enchanted# #weapon# and injures some kind of #leader# of the #monsters#! The fiend watches our hero escape with incredible hatred.", "Ambushed from all sides, our hero injures #leader.a# of the #monsters# with the #magic# of their #object#! The #angry# creature curses #name# in their strange #language#."],
+"enemies":["#folk.capitalize# are whispering that #stranger.a# has arrived, and is searching for our hero.","#stranger.a.capitalize# has been spotted stalking #urban# searching for our hero...","#stranger.a.capitalize# is hunting our hero, claiming they have the only right to wield the #enchanted# #weapon# #name#!", "#HeroGen.capitalize# enters a drinking contest at the local #tavern#, and loses! The last thing they see is #barkeep.a# with #strange# #colour# eyes...", "#HeroGen.capitalize# starts gambling at the local #tavern#, and loses! Their opponent is #angry.a# #raceC# who demands our hero's #weapon#!", "#HeroGen.capitalize# runs into trouble with the law in #place#, and the #monarch# puts a bounty on their head!", "#HeroGen.capitalize# and their #ally# #name# #breakinto# the #sacred# #library# of #place#. They steal a #sacred# #book# and flee from the resident #guardian.s#!", "#HeroGen.capitalize# stops to make camp in the #region#, but they see the hunting parties of the #monsters# in the distance!", "#HeroGen.capitalize# tries to #breakinto# the #sacred.capitalize# #library.capitalize#, but they were followed and are #givenaway# by the #stranger# from town!", "The #guardian.s# of the #library# take #HeroGen#'s #ally# #name#! They demand the #sacred# #book# for their life!", "During the ambush, #HeroGen# uses their #enchanted# #weapon# and injures some kind of #leader# of the #monsters#! The fiend watches our hero escape with #incredible# hatred.", "Ambushed from all sides, our hero injures #leader.a# of the #monsters# with the #magic# of their #object#! The #angry# creature curses #name# in their strange #language#.", "#law.a.capitalize# stops our hero as they move #urban#. #HeroGen.capitalize# is forced to attack!"],
 
-"inmost":["[captive:#guardian#]#HeroGen.capitalize# and their #AllyGen# #ally# take captive #captive.a# of the #library# and force them to translate the #book#. It reveals where the #boss.capitalize# is hiding their #lair#!","[captive:#guardian#]#HeroGen.capitalize# takes captive #captive.a# of the #library# and forces them to translate the #book#. The #captive# spits at our hero and bites their own tongue off!", "[captive:#guardian#]#HeroGen.capitalize# takes captive #captive.a# of the #library# and forces them to translate the #book#. The #captive# laughs, claiming the #evil# #boss.capitalize# is eagerly awaiting our hero in #place#.", "#chars# must continue! They journey #north# to the #region# named in the #book#, where they will find the #lair# of the #evil# #boss.capitalize#...", "As #HeroGen# and their allies move through the #region#, closer and closer to the source of evil, the land begins to #sicken#.", "Under the influence of the #boss.capitalize# and their #evil# #magic#, the land has begun to #sicken#. Our heroes find the remnants of #remnants#", "#magcre.a.capitalize# approaches our heroes and warns them of the #dangerous# path ahead, and the #force.s# of #monsters# surrounding the inmost#lair#.", "#chars# #encounter# #injured.a# #magcre# in the #region# nearing the #boss.capitalize#'s #lair#. Its blood is #colour#! They help the poor creature."],
+"inmost":["[captive:#guardian#]#HeroGen.capitalize# and their #AllyGen# #ally# take captive #captive.a# of the #library# and force them to translate the #book#. #luck# It reveals where the #boss.capitalize# is hiding their #lair#!","[captive:#guardian#]#HeroGen.capitalize# takes captive #captive.a# of the #library# and forces them to translate the #book#. The #captive# spits at our hero and bites their own tongue off!", "[captive:#guardian#]#HeroGen.capitalize# takes captive #captive.a# of the #library# and forces them to translate the #book#. The #captive# laughs, claiming the #evil# #boss.capitalize# is eagerly awaiting our hero in #place#.", "#chars# must continue! They journey #north# to the #region# named in the #book#, where they will find the #lair# of the #evil# #boss.capitalize#...", "As #HeroGen# and their allies move through the #region#, closer and closer to the source of evil, the land begins to #sicken#.", "Under the influence of the #boss.capitalize# and their #evil# #magic#, the land has begun to #sicken#. Our heroes find the remnants of #remnants#", "#magcre.a.capitalize# approaches our heroes and warns them of the #dangerous# path ahead, and the #force.s# of #monsters# surrounding the inmost #lair#.", "#chars# #encounter# #injured.a# #magcre# in the #region# nearing the #boss.capitalize#'s #lair#. Its blood is #colour#! They help the poor creature.", "Having helped the #injured# #magcre#, the creature joins our heroes on their approach to the #lair# of the #boss.capitalize#.", "The #magcre# tells our heroes about the #massacre# of its kind that took place in the #region# they travel. The #force.s# of the #enemy# are bringing all to ruin!", "#HeroGen.capitalize# and their companions have arrived outside the #lair# of the #boss.capitalize#. They make plans on how to enter, and survive.", "Our heroes have arrived at the source of all these evils, the inmost #lair#! They #hatch# a #plan# to get in undetected...", "The party passes the #ruin.ed# #building.s# of #place#. Their #magcre# #ally# tells them it was #ruin.ed# in the #warname#, and is now #haunt.ed# by #ghost.s#..."],
+
+"ordeal":["In the #region# #HeroGen# finds #macguffin.a# #shining# in the #light#. They pick it up... Could it be? The #legendary# artifact #name#?","In the #region# #HeroGen# finds #macguffin.a# #shining# in the #light#. They pick it up— #tragedy# It's been cursed!#","#tragedy# Upon grabbing the #macguffin# in the #boss.capitalize#'s #lair#, a burst of #evil# #magic# attacks our hero! It was a trap, and they have been cursed!","The #boss.capitalize#'s #evil# #magic# #infect#s #HeroGen#. They fall to the ground! Only their companions can help now.", "As our hero is #infect.ed# by #evil# #magic#, their #magcre# #ally# claims they know a ritual that can help! But it requires our hero to #confront#...", "The party begins the ritual. #HeroGen.capitalize# is plunged into a #shadow# world where they must #confront#!", "In the #feverdream# our hero faces #visionvisitors#. How can they #defeat# their own past? How can they overcome this #negEmot#?", "In the #feverdream# our hero faces #visionvisitors#. How can they #defeat# these visions of those who are gone?", "It is too much! The #negEmot# of the #evil# #magic# and #visionvisitors# will destroy our hero! They must remember what their mentor taught them...", "While #HeroGen# is #trapped# in the #evil# #magic# of the #macguffin#, their companions and the #magcre# are attacked by #monsters#! Is all hope lost?"],
+
+"reward":["#haunt.ed.capitalize# by #negEmot# in the #feverdream#, our #brave# hero begins to #confront#! Can they survive this?","#HeroGen.capitalize# remembers the lessons of their mentor, and ultimately how to #value#. This is exactly what they need to #confront#!","At last, #HeroGen# manages to #confront#. The #evil# #magic# and its #shadow# world begin to fall apart! #luck#","#luck# Our hero #breaksfreeof# the #evil# #magic# just as their companions are being overwhelmed by #monsters#! #toarms#", "#HeroGen.capitalize# has #defeat.ed# the curse of the #macguffin#. They take hold of it and unleash its #magic# against the #monsters#!", "As #HeroGen# #breaksfreeof# the #macguffin#'s curse, its #magic# flows into them! They are now #changed#!", "As #HeroGen# #breaksfreeof# the #macguffin#'s curse, #visionvisitors# bless them. Our hero has the support of the dead!", "#HeroGen.capitalize# has crossed through #shadow# worlds, and is touched by #visionvisitors#, and all their power. #luck#", "#HeroGen.capitalize# #breaksfreeof# the #shadow# world! They are changed, they are... #changed#!", "#HeroGen.capitalize# confront their #negEmot# and makes peace with #visionvisitors#. The spirits of the dead tell them a secret, a story of the #boss.capitalize# from #age# ago...", "Incorporating their #negEmot#, #HeroGen# becomes #changed#. #visionvisitors.capitalize# guide them back to the real world...", "#changed.capitalize#, #angry#, and back from the #shadow# world, our hero is ready to battle the #monsters#. #toarms#", "With the help of #visionvisitors# and the #magcre#'s ritual, #HeroGen# #breaksfreeof# the #macguffin#'s curse!", "The #ghost.s# tell #HeroGen# a story of ancient #Setting#, of #macguffin.a#, and a soon-to-be #evil# #boss# who never learned how to #value#...", "As #HeroGen# #breaksfreeof# the #macguffin#'s curse, #visionvisitors# bless their #weapon#. Our hero has the support of the dead!"],
 
 "HeroGen":["the #Occ# #Hero#","the #Race# #Hero#","our hero #Hero#","our hero", "#Hero# the #Race#", "#Hero# the #Occ#", "our #brave# hero", "the #brave# #Race# named #Hero#", "our hero"],
 
@@ -32,9 +36,47 @@
 
 "brave":["brave","valiant","intrepid","daring", "resolute", "gallant", "dauntless"],
 
+
+"changed":["more #brave#", "more powerful", "infused with #magic#", "touched by death", "more accepting", "at peace with the past", "more understanding", "wiser", "at peace with their #negEmot#"],
+
+"toarms":["To arms!","They must be stopped!","Courage is needed!","Steel and sorcery will arbitrate...", "Combat has arrived.", "Smite them!", "Blood will be spilled...", "A test of mettle!", "Prepare for battle!"],
+
 "book":["book","scroll","record","tablet"],
 
+"fizzle":["can barely muster a fizzle of magic","can't go on, and they fall asleep #cry#ing","fall to the ground and curl around their #negEmot#","give up and start to #cry#"],
+
+"macguffin":["#object#","#weapon#","#strange# #object#","#strange# #weapon#", "#enchanted# #object#", "#enchanted# #weapon#"],
+
 "north":["north","south","east","west"],
+
+"destitute":["destitute","looking like hell","abject","in shambles", "beside themselves", "looking wretched", "completely dejected", "feeling miserable", "looking pathetic", "looking pitiable"],
+
+"legendary":["legendary","fabled","mythical","storied", "fantastic", "fabulous"],
+
+"infect":["infect","corrupt","blight","poison", "taint"],
+
+"law":["guard","officer","warden","bounty hunter", "soldier"],
+
+
+"breaksfreeof":["breaks free of","emerges from","slips out of","surfaces from", "bursts free of"],
+
+"trapped":["trapped", "caught","locked", "kept helpless", "defenseless"],
+
+"luck":["What luck!","A turn of fortune!","Fortuitous happenstance!","The gods look favourably upon them!", "The stars are in their favour!", "The tides are turning!", "Such good fortune!", "A lucky break!"],
+
+"hatch":["hatch","come up with","concoct","devise", "think up"],
+
+"plan":["plan","scheme","strategy"],
+
+"negEmot":["guilt","loss", "grief", "shame", "regret", "remorse", "disgrace"],
+
+"feverdream":["fever dream","magic dream","dark vision", "cursed vision", "cursed dream"],
+
+"visionvisitors":["the #ghost.s# of their family","the #ghost.s# of their ancestors","the #ghost# of their mentor, the #mentocc# #name#,", "the #ghost.s# of everyone who lived in their #town#"],
+
+"shadow":["shadowy","dark","illusory", "ghostly", "cloudy", "chimerical", "hallucinatory", "deceitful"],
+
+"confront":["confront their past and their #destiny#","confront the losses they have suffered on this journey","confront their biggest fears", "recognize their pain and incorporate it", "engage with the trauma of this ordeal", "master their emotions and the power they hide within"],
 
 "breakinto":["break into","steal into","sneak into","trespass into", "creep into", "slip into"],
 
@@ -44,23 +86,42 @@
 
 "guardian":["guardian","priest","monk","acolyte", "guard", "cultist"],
 
+"ghost":["ghost","phantom","specter","shade", "wraith", "apparition"],
+
 "folk":["folk","people","the citizens of #place#","the clansfolk of #place#", "the #raceC.s# of #place#", "the #animal#kin of the #place# #region.capitalize#", "the #occBase.s.capitalize# of #place#"],
 
 "givenaway":["given away","alerted to","revealed","exposed", "betrayed"],
 
 "ancient":["ancient","aged","timeworn","old"],
 
+"way":["way","path","journey","road"],
+
+"means":["strength", "cunning", "sensuality", "charisma", "intelligence", "wit", "wealth", "mystic powers"],
+
 "remnants":["an army marching by...","villages and other settlements, all #ruin.ed# by the enemy.","a great battle.","farms and agriculture, now covered in ash."],
+
+"shining":["shining","glimmering","shimmering","gleaming", "glinting"],
+
+"light":["light","sunlight","moonlight", "starlight", "torchlight"],
 
 "library":["library","temple","archive"],
 
+"cry":["cry","weep","bawl"],
+
 "lair":["base","lair","fortress", "abode", "sanctum"],
+
+"massacre":["massacre","purging","genocide", "culling", "extermination", "expulsion"],
 
 "leader":["leader","chief","commander", "officer", "forerunner"],
 
 "magic":["magic","sorcery", "enchantment", "power"],
 
 "language":["language","dialect","tongue"],
+
+
+"haunt":["haunt","crowd","shadow", "bedevil", "torment", "harrow", "plague"],
+
+"building":["hall","tower","temple", "castle", "mine", "palace", "spire", "citadel"],
 
 "angry":["angry","infuriated","heated", "irate", "outraged", "fiery", "bitter", "incensed", "ill-tempered"],
 
@@ -84,17 +145,17 @@
 
 "general":["general","field marshal","admiral","captain", "officer","commodore","strategos","tetrarch", "praetor", "doyen", "reave", "corporal"],
 
-"number":["two","three","five","seven", "one hundred", "a thousand"],
+"number":["two","three","five","seven", "one Hundred", "a Thousand"],
 
 "bound":["bound","entangled","linked","joined", "intertwined", "interwoven", "enchained"],
 
-"destiny":["destiny","fate","fortune"],
+"destiny":["destiny","fate"],
 
 "ally":["ally","companion","friend"],
 
 "stranger":["stranger","outsider","foreigner", "newcomer", "visitor", "outlander", "wanderer", "transient", "mysterious drifter", "mysterious vagabond"],
 
-"vision":["#qualgood.a# #AllyGen# fighting #monsters#","#ment.a# fighting #monsters#","#object.a# hidden in darkness", "#weapon.a# waiting for a worthy wielder", "#ruin.ed.a# #library# calling their name", "#defeat.ed.a# #monarch# and a secret buried in history", "#evil.a# #boss# rising from the depths", "#evil.a# #general# leading an army of #monsters#", "a spy of some evil force #conspiring# against the #monarch#", "#elements# and #strange.a# #object#", "#animal.a# with secret knowledge", "#animal.a# waiting in the #region#"],
+"vision":["#qualgood.a# #AllyGen# fighting #monsters#","#ment.a# fighting #monsters#","#object.a# hidden in darkness", "#weapon.a# waiting for a worthy wielder", "#ruin.ed.a# #library# calling their name", "#defeat.ed.a# #monarch# and a secret buried in history", "#evil.a# #boss# rising from the depths", "#evil.a# #general# leading an army of #monsters#", "a spy of some evil force #conspiring# against the #monarch#", "#elements# and #strange.a# #object#", "#animal.a# with secret knowledge", "#animal.a# waiting in the #region#", "#ruin.ed.a# #building#", "#ghost.a# trapped in #building.a#"],
 
 "barkeep":["innkeeper","barkeep","serving boy", "serving girl", "drunk sailor", "drunk mercenary"],
 
@@ -110,9 +171,21 @@
 
 "walk":["stride","walk","march","journey", "trek", "hie", "voyage"],
 
-"ruin":["ruin","devastate","decimate","wreck", "sack", "spoil", "overturn", "pillage", "demolish"],
+"boat":["boat","ship","carrack","cargo ship", "warship", "trading vessel", "naval vessel", "galleon", "trireme", "frigate", "man-of-war", "caravel", "longship", "catamaran", "brigantine", "galley"],
+
+"waterfeat":["the #colour.capitalize# Inlet","#animal.capitalize#'s Island","the Sea of #stranger.s.capitalize#","the Isle of the #monarch#'s Doom", "the #north.capitalize#ern Expanse", "#infect.ed.capitalize# Abyss", "the #legendary# #colour.capitalize# Sea", "the Ocean of #number.capitalize# Wrecks", "the Sea of #angry.capitalize# Storms", "the Salted #way.capitalize#", "the #shining.capitalize# Sea", "the #shadow.capitalize# Sea", "the #sacred.capitalize# Waters", "the Isle of #ghost.s.capitalize#"],
+
+"tavern":["tavern", "inn", "saloon", "public house", "watering hole", "alehouse", "pub"],
+
+"ruin":["ruin","devastate","decimate","wreck", "sack", "overturn", "pillage", "demolish"],
 
 "defeat":["defeat","vanquish","subdue","obliterate", "overwhelm"],
+
+"criminal":["criminal","bandit", "raider", "outlaw", "brigand"],
+
+
+
+"incredible":["incredible","impressive","astonishing", "prodigious", "extraordinary", "phenomenal", "remarkable", "singular"],
 
 "qualgood":["#brave#","#gorg#","#intel#", "#mood#"],
 
@@ -126,7 +199,9 @@
 
 "theyencounter":["come across","encounter","bump into","meet","cross paths with","chance upon","happen to meet"],
 
-"ment":["#persona# druid", "#persona# warrior", "#persona# priestess", "#persona# loremaster", "#persona# wizard", "#persona# explorer", "#persona# demigod", "#persona# beastmaster", "#persona# Shaper", "#persona# duelist", "#persona# Mystic", "#persona# trainer"],
+"ment":["#persona# #mentocc#"],
+
+"mentocc":["druid","warrior","priestess", "loremaster","wizard","explorer","demigod", "beastmaster", "Shaper", "duelist", "Mystic", "trainer"],
 
 "mood":["vexed","indignant","impassioned","wistful","astute","courteous","suspicious","confused","boisterous"],
 
@@ -160,7 +235,11 @@
 
 "force":["squad","army","pack","force", "group"],
 
-"monsters":["goblins","orcs","undead","fey folk", "beastmen", "giants", "lizardmen", "demons", "bandits", "cultists", "eldritch creatures", "spiders", "ogres"],
+"badguys":["goblins","orcs","undead","fey folk", "beastmen", "giants", "lizardmen", "demons", "cultists", "eldritch creatures", "giant spiders", "ogres", "trolls", "mindflayers", "monsters", "lycanthropes"],
+
+
+"seamonsters":["sharks","merfolk","sea serpents", "salamandrakes", "leviathans", "sea spirits", "stormriders", "krakens", "nereids", "sirens", "vodyanoi", "sea hags", "water elementals"],
+
 
 "town":["town","village","city","settlement", "colony"],
 
@@ -193,6 +272,8 @@
 "skill":["how to master #elements#", "the secrets of #elements#", "the hidden nature of #elements#"],
 
 "quirk":["were extremely good at mental math", "could speak with animals", "knew the memories of stone and tree", "heard #evil# voices from the darkness", "heard wonderful singing from the earth", "could name the wind, and fire", "carried a key made for an unknown lock", "enjoyed the taste of blood", "could sometimes understand languages they had never heard", "could remember things in perfectly rendered memory palaces", "could feel energies flowing through the earth", "could see phantoms", "could foresee how a person would die", "knew every herb in the forest", "could bend metal with their mind", "had the constant urge to lie", "sometimes lost control over their left hand", "could lift twice their weight", "were extremely good at not being seen", "had incredibly light fingers", "could shoot a bow and arrow farther than anyone"]
+
+
 
 
 }
