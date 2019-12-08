@@ -2,7 +2,7 @@
 
 "origin":["[Hero:#name#][Race:#raceC#][Setting:#place#][boss:#bbad#][monsters:#badguys#][Occ:#occBase#]#int#"],
 
-"int": ["#Ord#", "#Call#", "#Mentor#", "#thresh#", "#allies#", "#tests#", "#tests2#", "#enemies#", "#inmost#", "#ordeal#", "#reward#", "#roadback#", "#dragon#", "#res#", "#elixir#"],
+"int": ["#reply#"],
 
 "name": ["Beck","Bhara","Maral","Rhaqu","Arro","Khabo", "Janna","Nirinni","Remmi", "Mivi","Ash","Athen", "Eyva","Arissa","Lehna", "Kinsey","Heidrek","Ty", "Ida","Fyrro","Mave", "Raddi","Idrea", "Kosta","Aslim","Kubok","Nazim","Ozer", "Seray","Rellyga","Garnel","Cyris","Alras","Sevra","Nesiari","Nava", "Gelri", "Omi", "Sutri", "Turan", "Kala", "Koba", "Delia", "Surra", "Raini", "Radi", "Vaesi", "Honni"],
 
@@ -357,8 +357,14 @@
 
 "value":["trust in their own self", "believe in others", "see the good in things","choose others over the self","own one's mistakes", "end conflict without violence", "choose empathy over indifference", "strive for understanding", "hold two opposing truths", "forgive, heal, and move on", "accept imperfection", "always be honest, especially with oneself", "find one's own truth", "appreciate a simple friendship", "live by one's morals", "live with loss, and live fully", "compromise and find common ground", "live in complexity, and appreciate it", "care when caring is painful"],
 
+"reply":["You are #Race.a# #Occ#, trapped in #cityfeat.a#. There is #macguffin.a# here somewhere....", "Your name is #Hero#, #Race.a# #Occ#. You are fleeing #monsters# in the #Setting# #region.capitalize#!", "You are #Race.a# #Occ# fleeing your past in the #waterfeat#. #evil.a.capitalize# force approaches your #boat#...", "You awake from a trip on the drug called #drug#. There is #macguffin.a# in your hands... You hear something approach!", "You are #Race.a# #Occ#, caught in the heat of battle! Wave after wave of #monsters# attack your #force#!", "You are #Race.a# #Occ# who is learning #skill#. You make a disastrous mistake...", "You are #Race.a# #Occ#, a #stranger# among the #folk#. You seek the #macguffin# named #name#.", "You are #Race.a# #Occ#. You try to #breakinto# #ancient.a# #library# with your #animal# #ally#.", "You are #Race.a# #Occ#, and have uncovered a plot to murder the #monarch#! The #boss.capitalize# to the #north# is behind this, surely...", "You are #Race.a# #Occ#, communing with #ghost.s#. You know there is a secret kept by the dead which threatens your world...", "You #walk# #urban# in the city of #Setting#. #guardian.s.capitalize# are following you...", "You are #injured# by #monsters#! Your #Race# blood is leaking... How do you escape?", "You are #Race.a# #Occ# exploring #ancient.a#, supposedly #haunt#ed #building#. There is information about the #boss.capitalize# here...", "You are #Race.a# #Occ#. You have found shelter in #tavern.a# bordering the #Setting# #region.capitalize#. #mentocc.a.capitalize# drinks alone here.", "You are surrounded by #monsters#! They circle you, held back only by a thin salt circle...", "You are #agent.a# of the #monarch#, searching the #region# for survivors of the #boss.capitalize#'s latest raids.", "You are #Race.a# #criminal#, robbing #stranger.s# on the road to #Setting#. But one of them is #mentocc.a# and holds your #destiny#...", "Your #destiny# is #bound# with the #boss.capitalize#. You must learn exactly how.", "You are wandering the #region# by faint #light#. #sacred.a.capitalize# #magcre# is here, and may help you, for a price.", "You are #Race.a# #Occ#, travelling with #mood.a# #ghost#. They know the way to the #lair# of the #boss.capitalize#.", "You are #Race.a# #Occ# named #Hero#. You use your #means# to get what you want: the #macguffin# named #name#!", "You are #Race.a# #Occ#, on the quest for #ancient# #magic#. Your allies are... #qualgood#."],
+
 "skill":["how to master #elements#", "the secrets of #elements#", "the hidden nature of #elements#"],
 
 "quirk":["were extremely good at mental math", "could speak with animals", "knew the memories of stone and tree", "heard #evil# voices from the darkness", "heard wonderful singing from the earth", "could name the wind, and fire", "carried a key made for an unknown lock", "enjoyed the taste of blood", "could sometimes understand languages they had never heard", "could remember things in perfectly rendered memory palaces", "could feel energies flowing through the earth", "could see phantoms", "could foresee how a person would die", "knew every herb in the forest", "could bend metal with their mind", "had the constant urge to lie", "sometimes lost control over their left hand", "could lift twice their weight", "were extremely good at not being seen", "had incredibly light fingers", "could shoot a bow and arrow farther than anyone"]
 
 }
+
+
+
+
